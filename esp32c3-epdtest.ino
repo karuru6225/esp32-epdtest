@@ -212,7 +212,7 @@ void setup() {
   
   Serial.print("Clear...\r\n");
 
-  // epd.Init();
+  epd.Init();
   epd.Clear(white);
   epd.Refresh();
   epd.PowerOff();
